@@ -12,6 +12,7 @@
     font-size: 18px;
     color: #e5e7eb;
     flex-direction: row;
+    margin-right: 25px;
 }
 
 .navbar {
@@ -36,12 +37,14 @@ ul {
     font-weight: bolder;
     color: #f9faf8;
     flex-direction: row;
+    margin: 0;
 }
 
 .website-info {
     font-size: 18px;
     color: #e5e7eb;
     flex-direction: row;
+    text-align: center;
 }
 
 .welcome {
@@ -55,11 +58,33 @@ ul {
     width: 50%;
     align-items: center;
     justify-content: center;
+    margin-left: 50px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: white;
+    height: 50px;
+    width: 90px;
+    border: 1px;
+    border-radius: 10px;
 }
 
 .welcome-right {
     display: flex;
     width: 50%;
+}
+
+img {
+    margin: 50px
+}
+
+.white-section {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
 }
 
 body {
